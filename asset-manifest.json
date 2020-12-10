@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/joye/static/css/main.c02e3aab.chunk.css",
-    "main.js": "/joye/static/js/main.9ada94bd.chunk.js",
-    "main.js.map": "/joye/static/js/main.9ada94bd.chunk.js.map",
+    "main.js": "/joye/static/js/main.9d2c1a14.chunk.js",
+    "main.js.map": "/joye/static/js/main.9d2c1a14.chunk.js.map",
     "runtime-main.js": "/joye/static/js/runtime-main.b75bd72d.js",
     "runtime-main.js.map": "/joye/static/js/runtime-main.b75bd72d.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/joye/static/css/2.20aa2d7b.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.64e9a380.chunk.js",
     "static/css/main.c02e3aab.chunk.css",
-    "static/js/main.9ada94bd.chunk.js"
+    "static/js/main.9d2c1a14.chunk.js"
   ]
 }
