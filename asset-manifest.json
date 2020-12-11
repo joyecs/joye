@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/joye/static/css/main.c02e3aab.chunk.css",
+    "main.css": "/joye/static/css/main.fe985070.chunk.css",
     "main.js": "/joye/static/js/main.51292b2b.chunk.js",
     "main.js.map": "/joye/static/js/main.51292b2b.chunk.js.map",
     "runtime-main.js": "/joye/static/js/runtime-main.b75bd72d.js",
@@ -12,7 +12,7 @@
     "static/js/3.9611a84c.chunk.js.map": "/joye/static/js/3.9611a84c.chunk.js.map",
     "index.html": "/joye/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/joye/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.c02e3aab.chunk.css.map": "/joye/static/css/main.c02e3aab.chunk.css.map",
+    "static/css/main.fe985070.chunk.css.map": "/joye/static/css/main.fe985070.chunk.css.map",
     "static/js/2.64e9a380.chunk.js.LICENSE.txt": "/joye/static/js/2.64e9a380.chunk.js.LICENSE.txt",
     "static/media/Resume.eed122f1.pdf": "/joye/static/media/Resume.eed122f1.pdf",
     "static/media/card4.049d1160.jpg": "/joye/static/media/card4.049d1160.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.b75bd72d.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.64e9a380.chunk.js",
-    "static/css/main.c02e3aab.chunk.css",
+    "static/css/main.fe985070.chunk.css",
     "static/js/main.51292b2b.chunk.js"
   ]
 }
