@@ -4,28 +4,32 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {faLink} from '@fortawesome/free-solid-svg-icons'
 import Data from '../data'
 
 
 function Duty(props){
-    const url_name = window.location.pathname;
-    let proj_ = '';
-    Data.projects.map(
-        project => {
-            if(url_name.indexOf(project.link)>-1){
-                proj_ = project;
-                console.log("Found:"+proj_);
-                // return proj_;
-            }
+    const url_name = window.location.href;
+    console.log(url_name);
+    let proj_ = Data.projects[0];
+    Data.projects.map(function(project){
+        console.log("1");
+        if(url_name.indexOf(project.link)>-1){
+            proj_ = project;
+            console.log("Found:"+proj_);
+            // return proj_;
         }
-    );
+        else{
+            console.log("not found");
+        }
+    });
     let list_intro = proj_.detail_codes_intro.map(
-        (code_list) => 
-        <li>{code_list}</li>
+        (code_list,i) => 
+        <li key={i}>{code_list}</li>
     );
     let keyword_list = proj_.keywords.map(
-        (ky) =>
-        <span className="card_list">{ky}</span>
+        (ky,i) =>
+        <span className="card_list" key={i}>{ky}</span>
     );
     let git = "";
     if(proj_.github_url){
@@ -35,14 +39,14 @@ function Duty(props){
     }
     return(
         <Container className="section">
-               <a href={proj_.url} target="_blank" className="detail_link"> <strong >{proj_.name}</strong> </a>
+               <a href={proj_.url} target="_blank" className="detail_link"> <strong ><FontAwesomeIcon icon={faLink}></FontAwesomeIcon>&nbsp;{proj_.name}</strong> </a>
             <Row>
                 <strong className="detail_pro_name">Basic project introduction:</strong>
                 <Col xs='12' sm md='12' lg='12'>
                     <p className="tx-left">{proj_.detail_intro}</p>
                 </Col>
                 <strong className="key_word">KEY WORDS:{keyword_list}.</strong> 
-                <strong>Responsibilities:</strong>
+                <strong className="respons">Responsibilities:</strong>
                 <Col xs='12' sm md='12' lg='12'>
                 <p className="tx-left">{proj_.conclustion}</p>
                    <ul className="duty_exp"> 

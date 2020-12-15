@@ -9,7 +9,7 @@ import { Container,Row,Col } from 'react-bootstrap';
  function Portfolio(){
     const pros = Data.projects.map(
         (singlepro) => 
-        <Pcard pro={singlepro}></Pcard>
+        <Pcard pro={singlepro} key={singlepro.name}></Pcard>
         // <Pcard name={pro.name} intro={pro.intro} link_url={pro.link} duties={pro.pro_list} pic_url={pro.pic_url} pro_link={pro.url} key_str={pro.tags}></Pcard>
     );
      return(  

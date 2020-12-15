@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import './components/style.css';
-import {BrowserRouter as Router,Route} from 'react-router-dom';
+import {HashRouter as Router,Route} from 'react-router-dom';
 
 
 library.add(faCoffee);
@@ -28,7 +28,7 @@ function App() {
     <Route exact path='/education' component={Education} />
     <Route exact path='/experience' component={Experience} />
     <Route exact path='/portfolio' component={Portfolio} />
-    <Route path="/detail/:name" component={Detail}></Route>
+    <Route exact path="/detail/:name" component={Detail}></Route>
     </div>
     </Router>
   );

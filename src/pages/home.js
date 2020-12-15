@@ -18,9 +18,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope,faPortrait, faPhone, faMap } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope,faPortrait, faPhone, faMap, faCode } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fas, fab)
 
@@ -31,9 +30,24 @@ function Home(){
     const cv = <FontAwesomeIcon icon={faPortrait} size='2x'/>;
     const phone_icon = <FontAwesomeIcon icon={faPhone} className="left_logo"/>;
     const map_icon = <FontAwesomeIcon icon={faMap} className="left_logo"/>;
+    const code_icon = <FontAwesomeIcon icon={faCode} className="left_logo"/>;
     return(     
         <Container>
             <Row>
+                <Col xs='12' md={12}>
+                    <p className="self_intro">
+                        My Chinese name is 张敏(Zhang Min). I usually go by Joye here in the States. 
+
+                        I am a frontend developer with 2 years of experience developing responsive websites using Bootstrap4, React, HTML and CSS.
+                        <br></br>
+                        My first full-time job after I obtained my MBA degree from <a href="http://andrews.edu/" target="_blank">Andrews Univerity</a> is to write clean frontend codes as a Frontend developer at <a href="https://www.pikicode.com/" target="blank">Pikicode Corp.</a>.
+                        I have participated in the front-end development of <strong>more than 10 projects </strong>of the company, some of the projects have been shown in my <a href="/joye/#/portfolio">portfolio </a>page.
+                        My previous part-time job is to manage and process database update of Andrews University application system(<a href="https://www.ellucian.com/" target="_blank">Ellucian</a>).
+                        I also spent a lot of time comunicating with the clients, answering questions, assisting with navigating our websites.
+                        <br></br>
+                        I have a deep understanding of Bootstrap4, React, Django, Jquery, HTML, and can use these tools to write clean, organized, portable and reusable code.
+                    </p>
+                </Col>
                 <Col xs='12' sm='12' md={6} lg={3}>
                     <Card>
                         <Card.Img varient='top' src={joye} className='card_img'>
@@ -99,9 +113,19 @@ function Home(){
                 </Col>
             </Row>
             <Row>
+            <Col sm='12' md='3'>
+                <div className="info_list">{code_icon} &nbsp;Frontend Developer</div>
+                </Col>
+            <Col sm='12' md='3'>
                 <div className="info_list">{gmail}  &nbsp;joyee816@gmail.com</div>
+                </Col>
+                <Col sm='12' md='3'>
                 <div className="info_list">{phone_icon} &nbsp;&nbsp; &nbsp; (269)362-0864&nbsp;&nbsp; &nbsp;</div>
+                </Col>
+                <Col sm='12' md='3'>
                 <div className="info_list">{map_icon} &nbsp;Los Angeles, CA. USA</div>
+                </Col>
+                
             </Row>
             <Row className="mg-top">
                 <Col>

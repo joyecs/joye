@@ -2,12 +2,13 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import hanno from '../images/package.png';
 import Button from 'react-bootstrap/Button';
+import {Link} from 'react-router-dom';
 
 function Pcard(props){
     // import pic_ from props.pro.pic_url;
     const responsibilities = props.pro.pro_list;
-    const list_duty = responsibilities.map((duty)=> 
-    <p className="card_list" >{duty}</p>
+    const list_duty = responsibilities.map((duty,i)=> 
+    <p className="card_list" key={i}>{duty}</p>
     );
     return(
         <div className="f1_container col-lg-4 col-sm-12  col-md-6 hanno">
@@ -26,7 +27,7 @@ function Pcard(props){
                 <p className="card_list" ><strong>Skills:</strong></p>
                 <p className="card_list" >{props.pro.tags}</p>
                 <p className="card_list" >
-                    <a href={"/detail/" + props.pro.link}>
+                    <a href={"/joye/#/detail/" + props.pro.link}>
                     <Button variant="outline-primary">
                         Quick View
                     </Button>

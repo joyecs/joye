@@ -4,7 +4,7 @@ const Data = {
         {
             name: "feiyu",
             url: "http://feiyuexpress.com/",
-            tags: "HTML, Bootstrap4, CSS, Python, Django",
+            tags: "HTML, Bootstrap4, CSS, React, Django",
             intro: "International logistics company's portal.",
             pic_url:"/images/feiyu.png",
             pro_list: [
@@ -53,28 +53,29 @@ const Data = {
             name: "Quick Store",
             url: "http://www.quickstores.net/",
             tags: "Ajax, JSON, jQuery, JS",
-            intro: "ERP system for a warehouse.",
+            intro: "Commerce platform.",
             pic_url:"/images/quick_store.png",
             pro_list: [
                 "Users create account", "Set up online store ", "Products management", "orders management","Website theme selection"
             ],
             link: "quickstore",
             keywords: [
-                "jQuery", "Django", "Bootstrap4", "HTML", "CSS", "JSON", "JS libraries"
+                "jQuery", "Django", "React.js", "reCAPTCHA", "JSON", "JS libraries"
             ],
             detail_intro: "Quick store is an e-commerce platform for online stores and retail point-of-sale systems. Users choose a template and upload information about their products and stores. System will generate a unique link for each store. Users have the access to manage their own stores and products.",
             detail_codes_intro: ["Establish a dictionary in a JSON file. Use the jQury to switch language after checkting language setting in request session.",
+            "Use reCAPTCHA v3 to protect the website from fraud and abuse.",
             "Use jQuery to read and post images data to the server and show previewed images.",
             "Use Bootstrap4, HTML5, CSS to revamp style and layout.",
             "Use libraries to simplify and beautify frontend design. For example, using toastr to show message with info retrived from backend and Sweetalert to show message."],
-            detail_code_pic: "/images/feiyu_pic1.png",
+            detail_code_pic: "/images/qc_store_code.png",
             detail_pic: "/images/quick_store_intro.png"
         },
         {
             name: "Mage Air",
             url: "http://www.mageair.us/",
             tags: "HTML, CSS, React",
-            intro: "ERP system for a warehouse.",
+            intro: "E-commerce platform & dashboard.",
             pic_url:"/images/mage.png",
             pro_list: [
                 "Online payment", "Galley", "Products management", "orders management"
@@ -97,7 +98,7 @@ const Data = {
             name: "Climax KTV",
             url: "http://dev2.climaxktv.com/",
             tags: "Django Form, jQuery, Bootstrap4, DOM",
-            intro: "ERP system for a warehouse.",
+            intro: "E-commerce system.",
             pic_url:"/images/climax_.png",
             pro_list: [
                 "Orders history", "Customer info management", "Track orders ", "Import customers info using xlxs files"
@@ -121,7 +122,7 @@ const Data = {
             name: "Cat Adoption",
             url: "#",
             tags: "Django RESTful API, React, Python",
-            intro: "ERP system for a warehouse.",
+            intro: "Non-profit cat adoption platform.",
             pic_url:"/images/cat_.png",
             pro_list: [
                 "Upload stray cats info.",
@@ -137,7 +138,7 @@ const Data = {
             detail_codes_intro: [
                 "Build page components using React.",
                 "Build web API using Django RESTful API.",
-                "Design frontend layout using Bootstrap4, jQuery and CSS to improve user experience.",
+                "Design frontend layout using React, Bootstrap4, jQuery and CSS to improve user experience.",
                     ],
             detail_code_pic: "/images/cat_code.png",
             detail_pic: "/images/cat_.png",

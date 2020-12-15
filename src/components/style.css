@@ -87,6 +87,7 @@
     width: 120px;
     height: 120px;
     object-fit: cover;
+    margin-left: 12px;
 }
 
 .card_list:first-letter {
@@ -277,7 +278,9 @@
 .detail_link:hover{
     text-decoration: none;
 }
-
+.self_intro{
+    text-align: left;
+}
 @media only screen and (min-width: 767.9px) {
     .left_bar{
         max-width: 20px !important;
@@ -319,5 +322,8 @@
 @media only screen and (max-width: 767.9px) {
     .left_bar {
         display: none;
+    }
+    .detail_pro_name, .key_word, .respons{
+        margin-left: 10px;
     }
 }
