@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/joye/static/css/main.fe985070.chunk.css",
+    "main.js": "/joye/static/js/main.9ed92df0.chunk.js",
+    "main.js.map": "/joye/static/js/main.9ed92df0.chunk.js.map",
+    "runtime-main.js": "/joye/static/js/runtime-main.b75bd72d.js",
+    "runtime-main.js.map": "/joye/static/js/runtime-main.b75bd72d.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/joye/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8f80e395.chunk.js": "/joye/static/js/2.8f80e395.chunk.js",
+    "static/js/2.8f80e395.chunk.js.map": "/joye/static/js/2.8f80e395.chunk.js.map",
+    "static/js/3.9611a84c.chunk.js": "/joye/static/js/3.9611a84c.chunk.js",
+    "static/js/3.9611a84c.chunk.js.map": "/joye/static/js/3.9611a84c.chunk.js.map",
+    "index.html": "/joye/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/joye/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.fe985070.chunk.css.map": "/joye/static/css/main.fe985070.chunk.css.map",
+    "static/js/2.8f80e395.chunk.js.LICENSE.txt": "/joye/static/js/2.8f80e395.chunk.js.LICENSE.txt",
+    "static/media/Resume.eed122f1.pdf": "/joye/static/media/Resume.eed122f1.pdf",
+    "static/media/card4.049d1160.jpg": "/joye/static/media/card4.049d1160.jpg",
+    "static/media/dream.f1eeca55.jpg": "/joye/static/media/dream.f1eeca55.jpg",
+    "static/media/frontend.015f729e.png": "/joye/static/media/frontend.015f729e.png",
+    "static/media/package.58d1ff41.png": "/joye/static/media/package.58d1ff41.png",
+    "static/media/profile2.9c5c25b5.jpeg": "/joye/static/media/profile2.9c5c25b5.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b75bd72d.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8f80e395.chunk.js",
+    "static/css/main.fe985070.chunk.css",
+    "static/js/main.9ed92df0.chunk.js"
+  ]
+}
