@@ -10,18 +10,16 @@ import Data from '../data'
 
 function Duty(props){
     const url_name = window.location.href;
-    console.log(url_name);
     let proj_ = Data.projects[0];
     Data.projects.map(function(project){
-        console.log("1");
         if(url_name.indexOf(project.link)>-1){
             proj_ = project;
             console.log("Found:"+proj_);
             // return proj_;
         }
-        else{
-            console.log("not found");
-        }
+        // else{
+        //     console.log("not found");
+        // }
     });
     let list_intro = proj_.detail_codes_intro.map(
         (code_list,i) => 
